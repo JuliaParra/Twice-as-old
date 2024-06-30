@@ -1,0 +1,22 @@
+{
+  "name": "exercises-javascript-fundamentals",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "type": "module",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "test-w": "vitest",
+    "test:unit": "vitest --environment jsdom",
+    "test-cover": "vitest run --coverage"
+  },
+  "author": "Giacomo",
+  "license": "ISC",
+  "devDependencies": {
+    "happy-dom": "^9.19.2",
+    "vitest": "^1.6.0"
+  }
+}
